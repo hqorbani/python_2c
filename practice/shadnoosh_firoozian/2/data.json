@@ -1,0 +1,9 @@
+data={
+    "user_name": ,
+    "server_name":"" ,
+    "time_frame":  ,
+    "asset":"" ,
+    "candle_numbers":  ,
+    "time_period":,
+    "lot":
+}
