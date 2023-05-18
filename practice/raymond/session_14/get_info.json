@@ -1,0 +1,8 @@
+{
+    "server_name" : "MetaQuotes-Demo",
+    "account" : "5012265195",
+    "tm" : 1,
+    "candle_numbers" : 30,
+    "asset_name" : "NZDSGD",
+    "time_period" : 3
+}

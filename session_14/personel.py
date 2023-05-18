@@ -1,5 +1,6 @@
 # inheritance 
 from person import Person
+
 class Personel(Person):
     def __init__(self, name, family  , code):
         super().__init__(name, family)

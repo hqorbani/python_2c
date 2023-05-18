@@ -1,4 +1,5 @@
 class Person:
+    # constructor
     def __init__(self, name, family):
         self.name = name
         self.family = family
@@ -10,3 +11,5 @@ class Person:
 
     def __str__(self) -> str:
         return "I'm a person"
+
+
