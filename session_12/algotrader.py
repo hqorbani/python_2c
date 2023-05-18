@@ -57,4 +57,3 @@ class algotrader():
         # else:
         #     print("sell")
 
-

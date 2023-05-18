@@ -6,11 +6,13 @@ class algotrader():
     def connect(self, account , server_name):
         if not mt5.initialize():
             return "initialize failed..." , mt5.last_error()
-        authorized = mt5.login(account , server_name)
-        if authorized:
-            return True
         else:
-            return "failed to connect at account",mt5.last_error()
+            return True
+        # authorized = mt5.login(account , server_name)
+        # if authorized:
+        #     return True
+        # else:
+        #     return "failed to connect at account",mt5.last_error()
     def check_asset(self,asset_name):
         result = True
         selected=mt5.symbol_select(asset_name,True)
@@ -69,4 +71,8 @@ class algotrader():
         # else:
         #     print("sell")
 
+server_name = "MetaQuotes-Demo"
+user_name = 68263282
 
+bot = algotrader()
+print(bot.connect(user_name , server_name))
